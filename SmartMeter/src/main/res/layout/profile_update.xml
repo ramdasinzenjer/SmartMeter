@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+       <ScrollView
+        android:id="@+id/scrollView12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"       
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvheadup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="UPDATE HERE "
+                android:textColor="@color/colour_black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etnameup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Name "
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colour_black" />
+
+    <EditText
+        android:id="@+id/etemailup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etnameup"
+        android:layout_below="@+id/etnameup"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Email Id "
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colour_black" />
+
+    <EditText
+        android:id="@+id/etphnup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etemailup"
+        android:layout_below="@+id/etemailup"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number "
+        android:inputType="phone"
+        android:textColorHint="@color/colour_black" />
+
+    <EditText
+        android:id="@+id/etunameup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="User Id "
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colour_black" />
+
+    <EditText
+        android:id="@+id/etpassup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Password "
+        android:inputType="text"
+        android:textColorHint="@color/colour_black" />
+
+    <EditText
+        android:id="@+id/etcpsup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Confirm Password "
+        android:inputType="text"
+        android:textColorHint="@color/colour_black" />
+
+    
+
+    <Button
+        android:id="@+id/btnproup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="updateprofile"
+        android:gravity="right"
+        android:text="Update Profile"
+        android:textColor="@color/colour_black" />
+  
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

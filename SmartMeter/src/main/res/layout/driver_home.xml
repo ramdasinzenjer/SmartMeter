@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btreqfarechange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        
+        android:text="Welcome Driver" />
+
+    <Button
+        android:id="@+id/btprofileupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btreqfarechange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Profile Update" />
+
+    <ListView
+        android:id="@+id/notifylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/btprofileupdate" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/mtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notifylist"
+        android:layout_below="@+id/btprofileupdate"
+        android:layout_marginTop="14dp"
+        android:text="Transportation Request"
+        android:textColor="@color/colour_black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imglc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btreqfarechange"
+        android:src="@android:drawable/ic_menu_mylocation" />
+
+    <TextView
+        android:id="@+id/mt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imglc"
+        android:layout_alignRight="@+id/btreqfarechange"
+        android:text="Update Location"
+        android:textColor="@color/colour_black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
