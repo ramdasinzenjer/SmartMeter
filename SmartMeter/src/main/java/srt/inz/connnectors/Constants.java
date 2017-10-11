@@ -9,14 +9,14 @@ public interface Constants {
 
     //Urls
  
-    String REGISTER_URL="http://192.168.1.16:81/smartmeter/driver_api/mRegister.php?";
-    String LOGIN_URL="http://192.168.1.16:81/smartmeter/driver_api/mLogin.php?";
-    String REQUESTFARE_URL="http://192.168.1.16:81/smartmeter/driver_api/mRequest.php?";
-    String REQUESTPROFILE_URL="http://192.168.1.16:81/smartmeter/driver_api/mProfilefetch.php?";
-    String REQUESTGETTER_URL="http://192.168.1.16:81/smartmeter/driver_api/mRequestfetch.php?";
-    String PROFILEUP_URL="http://192.168.1.16:81/smartmeter/driver_api/mProupdate.php?";
-    String REQSTATUS_URL="http://192.168.1.16:81/smartmeter/driver_api/mReqstatUpdate.php?";
-    String UPDATELOC_URL="http://192.168.1.16:81/smartmeter/driver_api/mUpdateLoc.php?";
+    String REGISTER_URL="https://trackker.000webhostapp.com/driver_api/mRegister.php?";
+    String LOGIN_URL="https://trackker.000webhostapp.com/driver_api/mLogin.php?";
+    String REQUESTFARE_URL="https://trackker.000webhostapp.com/driver_api/mRequest.php?";
+    String REQUESTPROFILE_URL="https://trackker.000webhostapp.com/driver_api/mProfilefetch.php?";
+    String REQUESTGETTER_URL="https://trackker.000webhostapp.com/driver_api/mRequestfetch.php?";
+    String PROFILEUP_URL="https://trackker.000webhostapp.com/driver_api/mProupdate.php?";
+    String REQSTATUS_URL="https://trackker.000webhostapp.com/driver_api/mReqstatUpdate.php?";
+    String UPDATELOC_URL="https://trackker.000webhostapp.com/driver_api/mUpdateLoc.php?";
     
     //Details
 
